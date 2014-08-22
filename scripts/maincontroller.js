@@ -13,7 +13,8 @@ app.controller("MainController", function($scope) {
                 "Metal", 
                 "Dubstep", 
                 "Electro"
-               ]	
+               ],
+        live: true
 	 },
 	 {
 		 id: 1, 
@@ -23,7 +24,8 @@ app.controller("MainController", function($scope) {
 		         "Drumstep", 
 		         "Dubstep", 
 		         "Electro"
-		         ]		 
+		         ],
+		 live: true
 	 },
 	 {
 		id: 2, 
@@ -33,7 +35,8 @@ app.controller("MainController", function($scope) {
 		        "Metal", 
 		        "Thrash Metal", 
 		        "Heavy Metal"
-		       ]		 
+		       ],
+		live: false
 	 }, 
 	 {
 		 id: 3, 
@@ -42,7 +45,8 @@ app.controller("MainController", function($scope) {
 		         "Pop", 
 		         "RnB", 
 		         "Hip Hop"
-		        ]		 
+		        ],
+	 	 live: true
 	 }
 	];		
 });
